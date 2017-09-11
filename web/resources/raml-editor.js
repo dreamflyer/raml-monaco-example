@@ -107,7 +107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 	    setupGeneralProperties(monacoEngine);
 	    setupColoring(monacoEngine);
-	    RAML.Server.launch("../node_modules/raml-language-server-browser/worker.bundle.js");
+	    RAML.Server.launch("resources/raml-language-server-browser/worker.bundle.js");
 	    filesystem.init(monacoEngine, RAML_LANGUAGE);
 	    validation.init(monacoEngine, RAML_LANGUAGE);
 	    completion.init(monacoEngine, RAML_LANGUAGE);
